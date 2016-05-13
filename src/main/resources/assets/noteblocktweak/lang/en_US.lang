@@ -1,0 +1,5 @@
+item.noteblockfork.name=Noteblock Fork
+gui.notice=Input or select note, press Enter to confirm
+tile.enhancednoteblock.name=Enhanced Noteblock
+gui.valid=Note Valid
+gui.invalid=Note Invalid

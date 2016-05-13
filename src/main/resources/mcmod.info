@@ -1,0 +1,15 @@
+[
+{
+  "modid": "noteblocktweak",
+  "name": "NoteblockTweak",
+  "description": "A mod allows controling noteblocks by note like 'A#5' and 'A2' to 'c5'. Compatible with RealPiano(EnhancedNoteBlock) and Piano+(Noteblock).",
+  "version": "3.0",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["CharlieJiang", "lkrb"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,0 +1,5 @@
+item.noteblockfork.name=音符盒音叉
+gui.notice=输入或选择音符，按Enter确认。
+tile.enhancednoteblock.name=增强音符盒
+gui.valid=音符有效
+gui.invalid=音符无效
