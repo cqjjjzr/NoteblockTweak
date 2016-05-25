@@ -29,7 +29,7 @@ assestUrl = "http://bmclapi2.bangbang93.com/assets"
 mcpUrl = "http://forgemavenmirror.sinaapp.com/fernflower-fix-1.0.zip"
 }
 
-version = "3.0"
+version = "3.1"
 group= "charlie.nbtweak" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "noteblocktweak-1.7.10"
 

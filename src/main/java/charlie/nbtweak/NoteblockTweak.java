@@ -15,7 +15,7 @@ import cpw.mods.fml.relauncher.Side;
 public class NoteblockTweak
 {
     public static final String MODID = "noteblocktweak";
-    public static final String VERSION = "3.0";
+    public static final String VERSION = "3.1";
     
     public static final SimpleNetworkWrapper INSTANCE = NetworkRegistry.INSTANCE.newSimpleChannel("noteblocktweak");
     

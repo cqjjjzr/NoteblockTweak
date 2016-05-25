@@ -2,6 +2,7 @@ package charlie.nbtweak;
 
 import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.List;
 
 import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.network.simpleimpl.SimpleNetworkWrapper;
@@ -41,9 +42,29 @@ public class GuiEnhancedSet extends GuiScreen {
 	}
 	 
 	@Override
-	protected void mouseClicked(int par1, int par2, int par3) {
-	    tfInput.mouseClicked(par1, par2, par3);
-	    super.mouseClicked(par1, par2, par3);
+	protected void mouseClicked(int x, int y, int k) {
+		int wX = width / 2 - (400 / 2);
+		int wY = height / 2 - (44 / 2);
+		if(x > wX && x < wX + 400 && y > wY && y < wY + 44){
+			if(y > wY + 24){
+				int key = (int) ((x - wX) / 7.6);
+				List<String> lst = Arrays.asList(
+						"A2", "B2", 
+						"C1", "D1", "E1", "F1", "G1", "A1", "B1", 
+						"C", "D", "E", "F", "G", "A", "B", 
+						"c", "d", "e", "f", "g", "a", "b", 
+						"c1", "d1", "e1", "f1", "g1", "a1", "b1",
+						"c2", "d2", "e2", "f2", "g2", "a2", "b2",
+						"c3", "d3", "e3", "f3", "g3", "a3", "b3",
+						"c4", "d4", "e4", "f4", "g4", "a4", "b4",
+						"c5");
+				key = key < 52 ? key : 51;
+				String str = lst.get(key);
+				tfInput.setText(str);
+			}
+		}
+	    tfInput.mouseClicked(x, y, k);
+	    super.mouseClicked(x, y, k);
 	}
 	 
 	@Override

@@ -100,7 +100,9 @@ public class GuiSet extends GuiScreen {
 	
 	@Override
 	public void drawScreen(int p1, int p2, float p3){
-		drawDefaultBackground();
+		try{
+			drawDefaultBackground();
+		}catch(Exception e){}
 		int wX, wY;
 		wX = width / 2 - (247 / 2);
 		wY = height / 2 - (165 / 2);
